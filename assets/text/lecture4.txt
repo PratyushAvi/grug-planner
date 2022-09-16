@@ -1,0 +1,51 @@
+grug hate complexity. has grug say grug hate complexity before? GRUG HATE COMPLEXITY!!! complexity worst evil enemy. in worst case grug has to fight all of problem within problem
+if problem part not affect other problem part then independent! complexity cost of whole problem is sum of parts
+if problem part just help other problem part (positive interactions) then complexity cost of whole problem is less than sum of parts
+if problem part just hurt other problem part (negative interactions) then complexity cost of whole problem is more than sum of parts
+still
+grug hate complexity
+grug want find plan go faster
+so grug use tool! grug use heuristic
+heuristic choose what grug should try look at first when make plan
+grug know grug can find small plan for each thing grug want and add all small plan to make giant plan! length of giant plan called sum heuristic
+if grug pretend problem part are independent then sum heuristic tool work great if grug is right. if grug not right and problem part just help each other then cost too high (inadmissible). if grug not right and problem part just hurt each other then cost too low (uninformed)
+grug wish grug could always be right
+but no :(
+good thing is grug can ignore when problem part hurt each other to find optimal plan! this called relaxing. grug like relaxing
+when grug relax, grug still find sum of what grug do but grug not know if cost too much (inadmissible) unless grug know plan is optimal
+grug also worry about if grug can find all plan choices (sound)
+so grug make number really big and not infinity so heuristic is complete. this fix problem (soundness guaranteed)
+grug know other heuristic - max heuristic. grug can find most big plan of all small plan to get each separate thing grug want. then grug take length of most big plan and that is heuristic!
+before grug continue grug tell why grug say all this
+grug NOT hacker. grug like to know grug plan best plan and that grug will find plan in end
+so grug like to tell why plan correct when grug come up with plan (correctness generalization)
+grug HATE hacker. not as much as complexity. but still. grug hate hacker
+now grug talk about more heuristic
+one heuristic greg know is set difference heuristic. grug think hmmmm here grug is, now what is left that grug still want? grug count how many thing missing and BOOM heuristic 
+but set difference not mean plan found optimal (inadmissable and uninformed). grug want optimal. grug HATE complexity
+grug know thing called planning graph! grug like to draw planning graph. grug get to put all state variable in one pot. grug not care what grug did to get variable, grug just throw in pot and hope for tasty snack
+grug do worry since when grug put all variable in same pot, variable stick to pot and grug not able to take variable out. if variable taste bad grug stuck with not tasty snack. grug not like not tasty snack
+grug hate draw planning graph long way. grug not like put variable in different pot and mix after. grug know some grug do progression and mix state but BAD complexity (exponential to merge progression tree). grug like short way more so grug can beat enemy (polynomial to make planning graph normally)
+see? grug not hacker
+when grug have planning graph, grug can use set-level heuristic! grug wait till first level when pot has all of what grug want (first level with all subgoals), then grug use level number. grug like set-level heuristic so grug know at least how many action grug have in plan (admissible) to get all of what grug want (all subgoals in same level)
+grug know that use set-level heuristic have smaller cost than sum heuristic and than relax heuristic. grug like that but grug worry that grug have to search through more plan (perhaps more uninformed)
+grug also know trick for relaxed heuristic. grug can find which actions grug not able to do at same time. these called mutexes
+grug find mutex by find what grug need for thing grug do and see if has problem with what grug need with other action (precondition) or what happen after other action (effect). then grug draw arrow and call mutex!
+grug also mark grug do nothing as mutex with grug do  nothing
+grug then find mutex for proposition by mark what proposition grug can only get by do action that have problem with all action that make other proposition. then grug draw arrow for that too
+then when grug look at next action layer grug also mark mutex action that need proposition with other action that need second proposition that mutex with first proposition
+grug find that some mutex have arrow in every level. these persistent mutex and not go away with more level
+grug like draw arrow. when grug has all arrow, grug can have better heuristic and better fight grug enemy complexity. but hard to find plan that work (feasible, NP-hard). grug have to go back sometimes
+grug find that sometimes when grug find plan on PG grug find actual plan and no longer relaxed (plan extraction used in Graphplan)
+oooh! grug also know grug can change graphplan to SAT to CSP. other grug try do SAT but take too much space. CSP much less space
+more than any thing grug like that grug can choose what heuristic work best for what grug want in plan!
+grug also think landmark fun. landmark is thing that grug know is true at some point in every plan
+landmark can have order like plan-space planning (precendence ordering)
+grug consider landmark as fact or disjunction of fact
+grug like to find and order landmark by thing called backchaining. grug start by put every thing grug want (goal) as landmark. then grug look through landmark and if all action that make B true share a thing they need called A (precondition) then A is landmark too
+sometimes grug like to make sure grug only add landmark A from landmark B if landmark A is the first one to make landmark B true
+grug also know thing called action landmark that like landmark but for action. action landmark is action that occur in every plan
+grug think landmark useful
+grug know grug can use hacker big picture idea for low-level planner as heuristic (union/abstract model). grug hate hacker but grug know hacker idea better than no idea
+grug also can use dumb LLM as heuristic. LLM bad at everything but also better than no idea for heuristic (universal weak model). LLM called broad and shallow AI. grug also know some AI deep and narrow
+overall grug like heuristic since they tool for grug to hurt complexity. grug hope grug can find more tool and better tool so grug can fight better!

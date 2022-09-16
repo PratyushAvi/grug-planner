@@ -1,0 +1,29 @@
+grug find out robot win art contest!!!
+grug like STRIPS but STRIPS not great. STRIPS not always end (incomplete) but STRIPS not take too much space (pspace complete)
+grug sad when action need thing to be true so grug need other action which need other thing to be true (cascading subgoals). this make plan hard so grug like schedule more
+grug know space people like to plan for everything when build rocket. this called universal planning
+grug think plan for years more hard than plan what grug will eat for dinner
+grug think do plan is hard cause grug has to do what plan says. grug can’t change plan when doing
+grug find footprint of plan useful! grug use only variables from initial state that grug find in goal. when grug want to find pet but not have lucky bone grug happy that grug can still find pet!
+grug HATE dead node. dead node work with complexity to make grug life bad. dead node take time and grug not always know which node dead. grug know dead node mean STRIPS will find plan if there is plan (sound but incomplete)
+grug love progression. grug like see what action grug can do and think to see if grug can get to where grug want. grug like how grug know everything at start (closed world assumption) and each action go right before next action
+grug think regression is strange. sometimes grug think back from where grug want to go when grug can go many different way at start. then grug think of action grug do that not make grug not able to get to goal. grug not know everything about where grug is going (partial state) which means grug flexible. but action does also go right before next action.
+regression helpful sometimes since grug can lift states so state is more general. grug hate how regression have more states to search
+grug also know other way to plan! grug can find out what grug should do before and after (precendence ordering) so grug get what grug want (plan space planning).
+grug think of flaw in plan. if grug still have thing grug want (open condition), that is flaw. grug solve by find action grug can do to get what grug want and find where to put action. grug add what grug need for action to list of flaws. 
+grug also find that sometimes grug add action and action mess up what grug want (unsafe link). grug fix this by move action early (promote) or late (demote). if this still not work, grug kill action by make sure grug can’t do action (negate preconditions). 
+when grug out of flaw, grug found plan that work! :)
+grug find this way of plan more free since grug can move action around easy. actions connected like in slingshot
+grug also sometimes find plan is no action if grug already have what grug want! that not happen much though. grug always want more
+grug like to see the 3 ways of planning like this: progression build plan from start and find one path, regression build plan from end using many path at same time, and plan-space add more to plan in middle till you get full plan!
+grug also know when grug use plan-space planning grug need to be smart when choose action. grug can use FSR BSR or PSR
+grug like that FSR&BSR make easy to make sure plan valid, not like PSR. grug like that PSR make grug not have to choose as much as early and grug can use PSR for action that take time, not like FSR&BSR
+grug know STRIPS start as MEA (means- end analysis) planning. grug know STRIPS bad at ending (incomplete).
+when plan need you to mix action between two goals (interleaving) STRIPS bad. STRIPS can solve when STRIPS can find way to solve things grug want separately in an order (serializability)
+grug know types of serializability: when most thing grug want can be solve separate in order that is trivial serializability. when few thing grug want can be solve separate in order that is laboriously serializability.
+STRIPS work by push everything to stack. STRIPS start with what grug want (subgoals) and keep put what grug need to get what grug want
+once grug gave STRIPS hard problem. grug ask STRIPS if grug can put coconut A on coconut B and coconut B on coconut C (sussman anomaly - coconut style).
+grug ignore that coconut hard to put on coconut. grug know grug can find way to make coconut not fall. grug good with coconuts
+grug surprised STRIPS not solve coconut problem. grug describe problem better since grug forgot to put that grug want coconut C on ground. then STRIPS solve problem
+grug realize that grug need to say all of what grug want to use STRIPS
+grug not like scruffy. grug like prove grug won and complexity lost so grug look for complete and optimal. grug NOT hacker!!! grug hate when other grug call grug hacker 🙄

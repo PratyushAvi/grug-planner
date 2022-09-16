@@ -1,0 +1,30 @@
+grug like simple. domain independent plans are simple. they only need actions and goals. domain dependent/specific plans not simple. they need more stuff other than actions and goals.
+grug can know how to do things two ways:
+grug can do without thinking (tacit, system 1) like when grug jump in water and not drown. grug not know how to teach to other grug not to drown though
+or grug can do by thinking step by step (explicit, system 2) like when grug write steps for cook food. when grug know by second way, grug can teach other grug!
+grug like to think of plan like move from one state to other when grug do thing (transition graph). like grug go from sad to happy when grug find shiny rock at beach
+grug can do this with big matrix or state variables
+big matrix have 1 when action go from first state to second state and 0 when not
+state variables are true or not true. grug need certain variables to be true when grug does action and after action grug changes other variables
+grug not like big matrix so grug use state variables. state variables simple and space small (factored model)
+sometimes grug not know where grug is. but if grug know grug near palm tree grug go toward palm tree then go toward sand and find big water. when grug find water grug know grug is at ocean. grug can find his way even if grug not know exact place grug is at
+sometimes grug not know where grug want to go but grug want pet. grug have many place grug can find pet. grug can make plan to go get pet from any place with pet. grug like find close place so grug not walk far
+grug ask search algorithm to give him plan to find close pet
+if grug trust what grug do will work (deterministic) grug use A*. if grug not know (stochastic) grug use MDP and sum matrices of what grug think might happen. if grug want to know what many action do, grug multiply those matrices
+if grug need to use matrix grug like when matrix sparse. make life easy
+when grug use MDP, grug find policy. then grug know what grug would do to get best reward
+grug like to make sure plan give grug all grug want. plan hard to make when grug okay with plan that give only some of what grug want
+classical planning easy type of planning. grug know world stay same (static) while grug plan, when grug do thing grug know what happen (deterministic), grug can see where grug is (observable), when grug do thing other thing happen right away (instantaneous), and grug work with thing that true and false (propositional)
+grug like to use PDDL to code plans
+PDDL nice language
+grug write things grug cares about in objects
+grug write cool thing about object in predicates
+grug write where grug is in initial state
+grug write what grug want in goal specification
+grug write action as thing grug can do with object
+grug like to write conditional effect so action does extra stuff only sometimes
+grug also like axioms. axiom make rest of code more easy
+grug think progression is cool. grug like to see where grug can go from initial state and hope to find what grug want
+grug think regression weird but help sometimes. grug like to walk back from where grug is to find where grug put bone for pet. then grug know how to lose bone again the same way! grug do admit grug loses bone a lot for fun but shhhhh no tell pet!!!!
+grug think causal proof neat. when grug solve mystery of where pet went grug think where pet could go and whether pet could leave and come back again. then grug make order of what happened (precedence)
+grug sad that no one cares about his enemy complexity. grug miss old days :(

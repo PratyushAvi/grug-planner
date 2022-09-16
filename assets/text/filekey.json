@@ -1,0 +1,32 @@
+{
+    "Intro to AI Grug": {
+        "filename": "intro.txt",
+        "author": "null",
+        "path": "assets/text/",
+        "date": "null"
+    },
+    "Lecture I": {
+        "filename": "lecture1.txt",
+        "author": "Courtney Dozier",
+        "path": "assets/text/",
+        "date": "August 19, 2022"
+    },
+    "Lecture II": {
+        "filename": "lecture2.txt",
+        "author": "Courtney Dozier",
+        "path": "assets/text/",
+        "date": "August 26, 2022"
+    },
+    "Lecture III": {
+        "filename": "lecture3.txt",
+        "author": "Courtney Dozier",
+        "path": "assets/text/",
+        "date": "September 2, 2022"
+    },
+    "Lecture IV": {
+        "filename": "lecture4.txt",
+        "author": "Courtney Dozier",
+        "path": "assets/text/",
+        "date": "September 9, 2022"
+    }
+}

@@ -1,0 +1,15 @@
+grug like planning
+easy to follow plan of actions
+when grug plan, grug know what to do when bomb could be in toilet. grug flush, then bomb not there, so grug no worry
+grug also not make invalid plan. grug not have wings so grug not fly to get brown energy water. grug have to walk
+grug lazy. grug hate walk far. grug make optimal plan with few steps
+grug hate when plan go wrong. grug make plan work no matter what happen. grug like robust plan
+to make plan, grug need 3 things. grug need know what grug want (goal), grug need know where grug is (initial state), and grug need understand world (model)
+grug know different types of plan
+some plan domain specific and work for one or two thing. some plan general and work for more thing. they called domain independent
+some plan grug make by learn from experience or from other grug. when grug learn, grug either learn how world work with model or grug just learn what grug need to do with no model
+(with model is like domain specific and like RL with simulator. no model is like domain independent and RL no simulator)
+planning is when grug find out what grug need to do. scheduling is when grug find out what order to do thing
+grug like contrafactual contrastive query. system give grug plan and grug can tell system no i hate plan. then system find out what grug want when grug not say it. system give new plan and grug like this plan
+grug also like plan that make sense to grug. some plan not explainable, they like 0s and 1s. make no sense to grug
+grug laugh at LLMs since they not plan well

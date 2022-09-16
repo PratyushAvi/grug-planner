@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Grug Planner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+    <div id="main-body" class="w-[90vw] md:w-[75vw] m-auto">
+        <div id="header" class="grid place-content-center place-items-center h-[90vh] m-auto">
+            <h1 class="text-[3rem] font-space-grotesk text-center">
+                <span class="underline decoration-[9px] decoration-[#2688f0]">Planning and</span> <span
+                    class="underline decoration-[9px] decoration-[#f7de1e]">Learning in AI</span>
+            </h1>
+            <h2 class="text-[1.7rem] font-press-start text-center">
+                A Grug's Perspective
+            </h2>
+
+            <p class="text-open-sans text-[#666] mt-[5vh]">
+                CSE 574: Planning & Learning in AI, Subbarao Kambhampati, Fall 2022
+            </p>
+            <p class="text-open-sans text-[#666]">
+                Developed by the bozos who avoided the bus on Mill Ave
+            </p>
+            <select id="lecture-select"
+                class="w-[150px] h-[40px] border-[2px] border-solid border-[#333] hover:border-[#2688f0] transition ease-in-out duration-[0.5s] rounded-[10px] font-open-sans mt-[10vh] bg-[white]"
+                onchange="update()" value="Intro to AI Grug">
+                <!-- <option>Intro to AI Grug</option> -->
+                <!-- <option>Lecture I</option> -->
+                <!-- <option>Lecture II</option> -->
+            </select>
+        </div>
+        <hr>
+        <h1 id="text-head" class="text-[3rem] font-silkscreen">
+        </h1>
+        <h2 id="text-details" class="text-[1.5rem] font-roboto-slab text-[#777]">
+        </h2>
+        <p id="text-body" class="text-[1.2rem] font-open-sans my-[4vh] leading-relaxed"></p>
+    </div>
+</body>
+
+</html>
