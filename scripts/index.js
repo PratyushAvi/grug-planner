@@ -5,19 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function setup() {
-    fetch(
-        '../assets/text/filekey.json',
-        {
-            method: 'GET',
-            headers: {
-                accept: 'application/json',
-            },
-        }
-    )
+    fetch('../assets/text/filekey.json',)
         .then(response => {
             return response.json();
         })
         .then(jsondata => {
+            console.log(json);
             json = jsondata;
             main(jsondata);
         });
@@ -58,14 +51,7 @@ function update() {
     }
 
 
-    fetch(
-        json[text_select.value]["path"] + json[text_select.value]["filename"], 
-        {
-            method: 'GET',
-            headers: {
-                accept: 'application/json',
-            },
-        })
+    fetch(json[text_select.value]["path"] + json[text_select.value]["filename"])
         .then(response => {
             return response.text();
         })
