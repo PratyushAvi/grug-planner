@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
+<body class="bg-[white] text-[#000] dark:bg-[black] dark:text-[#FFF]">
     <div id="header" class="w-[100vw] grid md:p-[50px] p-[20px] sm:place-content-center md:place-content-start">
-        <a href="" class="text-[1.2rem] md:text-[1.5rem] text-[#000] font-silkscreen m-auto">
+        <a href="" class="text-[1.2rem] md:text-[1.5rem] font-silkscreen m-auto">
             <img src="./assets/images/ai_grug.jpg" alt="AI Grug" class="h-[60px] md:h-[75px] inline-block rounded-[10px] m-auto">
             Planning AI Grug
         </a>
@@ -25,31 +25,28 @@
     <div id="main-body" class="w-[90vw] md:w-[75vw] m-auto">
         <div id="landing" class="grid place-content-center place-items-center h-[70vh] md:h-[80vh] m-auto">
             <h1 class="text-[2rem] md:text-[3rem] font-space-grotesk text-center font-[300]">
-                <span class="underline decoration-[9px] decoration-[#2688f0]">Planning and</span> <span
-                    class="underline decoration-[9px] decoration-[#f7de1e]">Learning in AI</span>
+                <span class="underline decoration-[9px] dark:decoration-[#f7de1e] decoration-[#2688f0]">Planning and</span> <span
+                    class="underline decoration-[9px] dark:decoration-[#2688f0] decoration-[#f7de1e]">Learning in AI</span>
             </h1>
             <h2 class="text-[1.2rem] md:text-[1.7rem] font-press-start text-center">
                 A Grug's Perspective
             </h2>
 
-            <p class="text-open-sans text-[#666] mt-[5vh] text-[0.9rem] md:text-[1.2rem] font-[300]">
+            <p class="text-open-sans dark:text-[#CCC] text-[#666] mt-[5vh] text-[0.9rem] md:text-[1.2rem] font-[300]">
                 CSE 574: Planning & Learning in AI, Subbarao Kambhampati, Fall 2022
             </p>
-            <p class="text-open-sans text-[#666] text-[0.9rem] md:text-[1.2rem] font-[300]">
+            <p class="text-open-sans dark:text-[#CCC] text-[#666] text-[0.9rem] md:text-[1.2rem] font-[300]">
                 Developed by the bozos who avoided the bus on Mill Ave
             </p>
             <select id="lecture-select"
-                class="w-[150px] h-[40px] border-[2px] border-solid border-[#333] hover:border-[#2688f0] transition ease-in-out duration-[0.5s] rounded-[10px] font-open-sans mt-[10vh] bg-[white]"
+                class="w-[150px] h-[40px] border-[2px] border-solid border-[#333] hover:border-[#2688f0] transition ease-in-out duration-[0.5s] rounded-[10px] font-open-sans mt-[10vh] bg-[white] dark:bg-[black]"
                 onchange="update()" value="Intro to AI Grug">
-                <!-- <option>Intro to AI Grug</option> -->
-                <!-- <option>Lecture I</option> -->
-                <!-- <option>Lecture II</option> -->
             </select>
         </div>
-        <hr>
+        <hr class=" border-[#999] dark:border-[#333] border-[2px]">
         <h1 id="text-head" class="text-[2rem] md:text-[3rem] font-silkscreen">
         </h1>
-        <h2 id="text-details" class="text-[1.2rem] md:text-[1.5rem] font-roboto-slab text-[#777] font-[300]">
+        <h2 id="text-details" class="text-[1.2rem] md:text-[1.5rem] font-roboto-slab dark:text-[#CCC] text-[#777] font-[300]">
         </h2>
         <p id="text-body" class="text-[0.9rem] md:text-[1.2rem] font-open-sans my-[4vh] leading-relaxed"></p>
     </div>
