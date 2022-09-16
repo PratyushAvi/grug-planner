@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function setup() {
-    fetch('~/assets/text/filekey.json',)
+    fetch('assets/text/filekey.json',)
         .then(response => {
             return response.json();
         })
@@ -51,7 +51,7 @@ function update() {
     }
 
 
-    fetch("~/" +json[text_select.value]["path"] + json[text_select.value]["filename"])
+    fetch("" + json[text_select.value]["path"] + json[text_select.value]["filename"])
         .then(response => {
             return response.text();
         })
