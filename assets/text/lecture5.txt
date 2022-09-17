@@ -1,0 +1,40 @@
+grug have mostly talk about classical planning where machine not work with grug on plan. machine just plan and not care about grug. grug sad machine no care
+grug wonder what if machine think about grug? if grug make machine care then plan with machine more fun!
+grug know test that show theory of mind. this useful for machine to know what grug think. then grug know machine care!
+this test is where first grug put shiny rock in tree and second grug watch. first grug leave. second grug take shiny rock out of tree and hide shiny rock in hole. first grug come back. first grug still look for shiny rock in tree
+second grug know that first grug still look in tree since second grug know how to think like second grug is first grug and know only what first grug know. second grug know first grug not know second grug put shiny rock in hole
+grug know basic HAP setting is when grug just watch while robot make plan and grug guess what robot plan is from what grug know about robot
+grug hope machine know what grug think about what machine think. machine try to guess what grug think machine think but not always same
+may be different since machine can do what grug cannot do and grug can do what machine cannot do
+may be different since grug think some thing true but grug wrong
+may be different since grug not understand what robot want
+may be different since grug not see what robot see or robot see what grug not see
+may be different since grug not as smart as robot. grug like simple thing and not get complicated idea
+if different, machine need to choose whether machine try to do what grug want (be explicable) or whether machine do other thing but tell grug why machine do other thing (explain decision)
+if machine do what grug want, machine might not do best plan. so robot make sense to grug robot have to work with grug worst enemy complexity :(. but robot also hate complexity so is ok
+grug think it worth it so grug can understand robot and grug not hate robot for do weird thing
+grug think friendship more important than enemy complexity. robot is grug best friend. grug have no other friend so grug fine with worse plan if grug stay friend with robot. robot and grug fight complexity together but friendship more important to grug
+robot not do plan grug expect but robot do plan that most like what grug expect but still try to make optimal. robot do this by make cost small and make distance small
+gurg know different type of distance robot make small:
+distance can be change between grug model and robot model
+distance also can be count of action in plan
+distance also can be learn
+robot can either know grug model (model-based explicable planning) or not know (model-free explicable planning)
+if robot know grug model, even if robot not know what grug plan is, robot can find what grug plan would be
+no matter whether robot have model, robot then use difference between grug plan and robot plan as heuristic
+grug like efficient. grug know some place where robot can make change in place so robot plan better. robot can do change and then make plan. (design for explicability in environment)
+grug like when robot make change. make sense to grug
+when robot think if robot want to make change in place then robot have to see if better in long term. robot also hate complexity so robot look at cost and weigh choice
+robot also have to think that if robot keep doing thing then grug expect robot still keep doing thing (like discount in MDP)
+robot not able to do the exact thing grug expect. robot just try to get close
+sometimes to make grug understand robot would have to have real bad complexity so robot not do that. robot just tell grug why robot do what robot do. robot explain what robot know and what robot see and why robot act way robot does
+problem is grug not like complicated. grug like simple. grug not able to understand robot if too complicated. robot also not always know what to explain since robot not always know why grug not understand. not helpful to grug for robot to just dump all of what robot know on grug. grug not understand that
+robot can just give thing that grug not have in grug model. that simple and grug can understand
+robot try to find small number of step of thing robot can tell grug to bring grug model close to robot model (model reconciliation)
+robot make plan to get from grug model to robot model (model space/MCE search). robot put state variables grug have in model and not have in model in new state variable. each state have state variable grug do have in model. each action is when robot take state variable grug not have and add it to state so robot can tell grug and robot take state variable grug have that robot not have and remove from state
+but this plan hard to make and robot have to fight complexity :(
+robot also can make plan to go close to grug model (monotonic explanations/MME)
+when robot not know grug model but know grug model is one of many model option robot can consider set of all possible model (belief space). robot make sure plan optimal in all option by check work for max model and for min model (conformant explanations). robot check most constrained model work when execute. robot check most relaxe model optimal
+if robot not know grug model and robot not know option for grug model then robot talk to grug (unknown model)
+grug also know robot can find plan that make more sense to grug and also explain what robot do to grug (combine explanation and explainable planning)
+robot have to choose how optimal versus how explainable robot make plan. robot choose by weigh costs

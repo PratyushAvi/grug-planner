@@ -28,5 +28,11 @@
         "author": "Courtney Dozier",
         "path": "assets/text/",
         "date": "September 9, 2022"
+    },
+    "Lecture V": {
+        "filename": "lecture5.txt",
+        "author": "Courtney Dozier",
+        "path": "assets/text/",
+        "date": "September 16, 2022"
     }
 }
