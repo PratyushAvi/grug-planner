@@ -57,7 +57,7 @@ function update() {
         })
         .then(t => {
             let text = t;
-            text.replace("\n", "<br>");
-            text_body.innerHTML = text;
+            //text.replace("\n", "<br>");
+            text_body.innerText = text;
         });
 }
