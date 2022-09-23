@@ -58,6 +58,6 @@ function update() {
         .then(t => {
             let text = t;
             text.replace("\n", "<br>");
-            text_body.innerText = text;
+            text_body.innerHTML = text;
         });
 }
